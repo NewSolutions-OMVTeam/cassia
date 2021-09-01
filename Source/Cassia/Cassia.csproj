@@ -14,6 +14,11 @@
     <RepositoryUrl>https://github.com/danports/cassia.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>TerminalServices;RemoteDesktop</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>newsolOmv.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>CassiaOMV</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>..\..\Bin\</OutputPath>
